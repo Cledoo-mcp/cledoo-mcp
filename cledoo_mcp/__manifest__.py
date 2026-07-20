@@ -45,7 +45,7 @@ https://cledoo.com/privacy.
 Not installable on Odoo Online (SaaS): custom modules require Odoo.sh or an
 on-premise deployment.
 """,
-    "category": "Technical",
+    "category": "AI",
     "author": "Cledoo",
     "website": "https://cledoo.com",
     "license": "LGPL-3",
