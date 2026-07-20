@@ -47,6 +47,7 @@ on-premise deployment.
 """,
     "category": "AI",
     "author": "Cledoo",
+    "maintainer": "Cledoo",
     "website": "https://cledoo.com",
     "license": "LGPL-3",
     "support": "support@cledoo.com",
@@ -78,6 +79,6 @@ on-premise deployment.
             "cledoo_mcp/static/src/core/message_patch.xml",
         ],
     },
-    "application": False,
+    "application": True,
     "installable": True,
 }
