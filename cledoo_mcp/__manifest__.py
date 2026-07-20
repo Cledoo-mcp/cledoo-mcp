@@ -5,37 +5,37 @@
     # Kept series-neutral on the dev branch: this source tree runs on both
     # Odoo 18 and 19, and a hard series prefix makes the *other* series
     # refuse to install ("incompatible version, setting installable=False"
-    # — verified live on 19 with an 18.0 prefix). The Apps Store release
+    # -- verified live on 19 with an 18.0 prefix). The Apps Store release
     # branches MUST prefix it per series (18.0.1.2.0 on branch 18.0,
     # 19.0.1.2.0 on branch 19.0) so a wrong-series install fails cleanly.
     "version": "19.0.1.7.0",
     "summary": "Free native MCP server: connect Claude and AI agents to Odoo, "
                "secured by your own Odoo permissions.",
     "description": """
-Give Claude direct access to your Odoo — for free, and secured by your own
+Give Claude direct access to your Odoo -- for free, and secured by your own
 permissions.
 
 Cledoo MCP turns your Odoo instance into a native MCP server. Install the
 module, flip one switch in Settings, and Claude (claude.ai, Claude Desktop)
-or any MCP client connects directly to /mcp — with a standard Odoo API key,
+or any MCP client connects directly to /mcp -- with a standard Odoo API key,
 or the built-in OAuth 2.1 flow with a branded consent screen (paste the URL,
 approve, done). No external server, no new dependency, nothing leaving your
 instance.
 
 Every one of the 17 tools runs as the connected user, under their existing
-Odoo ACLs, record rules and field rights — exactly what they can do in the
+Odoo ACLs, record rules and field rights -- exactly what they can do in the
 UI. Token-efficient by design: a curated model catalog, compact metadata and
 response guards so the AI spends its context on answers, not noise. Multi-
 company aware, tested on Odoo 18 and 19.
 
-Need to govern the AI itself — a global read-only kill-switch, per-connection
+Need to govern the AI itself -- a global read-only kill-switch, per-connection
 scopes, audit trail, data privacy masking, per-user allow/deny policies,
 human-confirmed writes, an outbound-comms guard? A separate module, Cledoo
 MCP Pro, is available on the Odoo Apps Store.
 
 Data privacy: the module collects NO data by default. It offers an
-OPT-IN anonymous usage statistic (disabled by default): if — and only
-if — you enable it in Settings, a weekly anonymous ping is sent to
+OPT-IN anonymous usage statistic (disabled by default): if -- and only
+if -- you enable it in Settings, a weekly anonymous ping is sent to
 PostHog (EU) containing version numbers and aggregate counters only
 (never your data, model names, hostnames, users or company
 information). The exact payload is documented in the README and the
