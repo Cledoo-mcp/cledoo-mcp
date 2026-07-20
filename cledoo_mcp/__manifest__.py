@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: LGPL-3.0-or-later
 # Copyright (c) 2026 Cledoo
 {
-    "name": "Cledoo MCP",
+    "name": "Cledoo: Odoo MCP Server - Free - Claude, GPT, Copilot",
     # Kept series-neutral on the dev branch: this source tree runs on both
     # Odoo 18 and 19, and a hard series prefix makes the *other* series
     # refuse to install ("incompatible version, setting installable=False"
@@ -9,8 +9,8 @@
     # branches MUST prefix it per series (18.0.1.2.0 on branch 18.0,
     # 19.0.1.2.0 on branch 19.0) so a wrong-series install fails cleanly.
     "version": "18.0.1.7.0",
-    "summary": "Free native MCP server: connect Claude and AI agents to Odoo, "
-               "secured by your own Odoo permissions.",
+    "summary": "MCP Server for Odoo: connect Claude, ChatGPT, Copilot and any "
+               "AI agent. Free, native, secured by your own Odoo permissions.",
     "description": """
 Give Claude direct access to your Odoo -- for free, and secured by your own
 permissions.
