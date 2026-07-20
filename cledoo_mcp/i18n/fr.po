@@ -1,0 +1,767 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cledoo_mcp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-05 08:40+0000\n"
+"PO-Revision-Date: 2026-07-05 08:40+0000\n"
+"Last-Translator: Cledoo\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid "(unverified application)"
+msgstr "(application non vérifiée)"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid ""
+".\n"
+"              The application acts with your Odoo permissions — it can never\n"
+"              see or change more than you can.\n"
+"              You can revoke this access at any time in\n"
+"              <i>Settings → General Settings → MCP Server</i>."
+msgstr ""
+".\n"
+"              L'application agit avec vos droits Odoo — elle ne peut jamais\n"
+"              voir ni modifier plus que vous.\n"
+"              Vous pouvez révoquer cet accès à tout moment dans\n"
+"              <i>Configuration → Paramètres généraux → MCP Server</i>."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"<br/>AI chat apps (claude.ai, ChatGPT, Le Chat…): paste this\n"
+"                URL as a custom connector — login and consent happen via\n"
+"                OAuth, no key to copy.\n"
+"                <br/>Other clients: authenticate with an Odoo API key\n"
+"                (Preferences &gt; Account Security &gt; New API Key) sent as\n"
+"                a Bearer token."
+msgstr ""
+"<br/>Apps de chat IA (claude.ai, ChatGPT, Le Chat…) : collez cette\n"
+"                URL comme connecteur personnalisé — connexion et\n"
+"                consentement passent par OAuth, aucune clé à copier.\n"
+"                <br/>Autres clients : authentifiez-vous avec une clé API\n"
+"                Odoo (Préférences &gt; Sécurité du compte &gt; Nouvelle clé\n"
+"                API) envoyée en Bearer token."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields.selection,name:cledoo_mcp.selection__mcp_endpoint_activity__kind__apikey
+msgid "API key"
+msgstr "Clé API"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields.selection,name:cledoo_mcp.selection__mcp_oauth_token__kind__access
+msgid "Access"
+msgstr "Accès"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid "Allow access"
+msgstr "Autoriser l'accès"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_telemetry
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Anonymous usage statistics (opt-in)"
+msgstr "Statistiques d'utilisation anonymes (opt-in)"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid "Authorize access"
+msgstr "Autoriser l'accès"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__call_count
+msgid "Call Count"
+msgstr "Nombre d'appels"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_client__client_id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__client_id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__client_id
+msgid "Client"
+msgstr "Client"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_client__client_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__client_name
+msgid "Client Name"
+msgstr "Nom du client"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__code_challenge
+msgid "Code Challenge"
+msgstr "Code challenge"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__code_hash
+msgid "Code Hash"
+msgstr "Empreinte du code"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid "Company logo"
+msgstr "Logo de la société"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: cledoo_mcp
+#: model:ir.actions.act_window,name:cledoo_mcp.action_mcp_oauth_token
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.view_mcp_oauth_token_list
+msgid "Connected AI clients"
+msgstr "Clients IA connectés"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__create_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__create_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_client__create_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__create_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__create_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__create_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__create_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_client__create_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__create_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__create_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid "Deny"
+msgstr "Refuser"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Discover MCP Pro"
+msgstr "Découvrir MCP Pro"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mail_message__display_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__display_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_gateway__display_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__display_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_client__display_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__display_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__display_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__display_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_telemetry__display_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Edit catalog"
+msgstr "Modifier le catalogue"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_enabled
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Enable MCP Server"
+msgstr "Activer le serveur MCP"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Endpoint:"
+msgstr "Endpoint :"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__error_count
+msgid "Error Count"
+msgstr "Nombre d'erreurs"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__expires_at
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__expires_at
+msgid "Expires At"
+msgstr "Expire le"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"Expose the /mcp endpoint for AI agents (Claude, MCP clients). Clients "
+"authenticate via OAuth 2.1 (built in) or a standard Odoo API key; access "
+"rights are your Odoo ACLs."
+msgstr ""
+"Expose le endpoint /mcp pour les agents IA (Claude, clients MCP). Les "
+"clients s'authentifient via OAuth 2.1 (intégré) ou une clé API Odoo standard"
+" ; les droits d'accès sont vos ACL Odoo."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__featured
+msgid "Featured"
+msgstr "Mis en avant"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.view_mcp_model_profile_list
+msgid "Featured models"
+msgstr "Modèles mis en avant"
+
+#. module: cledoo_mcp
+#: model:ir.actions.act_window,name:cledoo_mcp.action_mcp_model_profile
+msgid "Featured models (AI catalog)"
+msgstr "Modèles mis en avant (catalogue IA)"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,help:cledoo_mcp.field_mcp_model_profile__featured
+msgid "Featured models are what list_models returns by default."
+msgstr ""
+"Les modèles mis en avant sont ceux que list_models renvoie par défaut."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mail_message__id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_gateway__id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_client__id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_telemetry__id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent_permissions
+msgid "If you allow, this application will be able to:"
+msgstr "Si vous autorisez, cette application pourra :"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__kind
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__kind
+msgid "Kind"
+msgstr "Type"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__write_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__write_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_client__write_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__write_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__write_uid
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__write_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__write_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_client__write_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__write_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__write_date
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__last_used_at
+msgid "Last Used At"
+msgstr "Dernière utilisation"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__llm_hint
+msgid "Llm Hint"
+msgstr "Indice LLM"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_mcp_oauth_token
+msgid "MCP OAuth access/refresh token"
+msgstr "Jeton OAuth MCP (accès/rafraîchissement)"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_mcp_oauth_code
+msgid "MCP OAuth authorization code (single use)"
+msgstr "Code d'autorisation OAuth MCP (usage unique)"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_mcp_oauth_client
+msgid "MCP OAuth client (dynamically registered)"
+msgstr "Client OAuth MCP (enregistré dynamiquement)"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Govern your AI with MCP Pro"
+msgstr "Gouvernez votre IA avec MCP Pro"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "MCP Server"
+msgstr "Serveur MCP"
+
+#. module: cledoo_mcp
+#: model:ir.actions.act_window,name:cledoo_mcp.action_mcp_endpoint_activity
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.view_mcp_endpoint_activity_list
+msgid "MCP activity"
+msgstr "Activité MCP"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_mcp_telemetry
+msgid "MCP anonymous telemetry (opt-in in Settings > MCP Server)"
+msgstr "Télémétrie anonyme MCP (opt-in dans Configuration > MCP Server)"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_mcp_endpoint_activity
+msgid "MCP endpoint usage counters"
+msgstr "Compteurs d'utilisation du endpoint MCP"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_mcp_model_profile
+msgid "MCP featured model (LLM catalog entry)"
+msgstr "Modèle MCP mis en avant (entrée du catalogue LLM)"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_mcp_gateway
+msgid "MCP tool gateway (lite: direct ORM under Odoo ACLs)"
+msgstr "Passerelle d'outils MCP (lite : ORM direct sous ACL Odoo)"
+
+#. module: cledoo_mcp
+#: model:ir.actions.server,name:cledoo_mcp.ir_cron_mcp_telemetry_ir_actions_server
+msgid "MCP: anonymous telemetry ping (weekly, opt-in)"
+msgstr "MCP : ping de télémétrie anonyme (hebdomadaire, opt-in)"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Manage connections"
+msgstr "Gérer les connexions"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_base_url_insecure
+msgid "Mcp Base Url Insecure"
+msgstr "URL de base MCP non sécurisée"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_base_url_unfrozen
+msgid "Mcp Base Url Unfrozen"
+msgstr "URL de base MCP non figée"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_endpoint_url
+msgid "Mcp Endpoint Url"
+msgstr "URL du endpoint MCP"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__model_name
+msgid "Model Name"
+msgstr "Nom du modèle"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields.selection,name:cledoo_mcp.selection__mcp_endpoint_activity__kind__oauth
+msgid "OAuth"
+msgstr "OAuth"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,help:cledoo_mcp.field_mcp_model_profile__llm_hint
+msgid ""
+"One line telling the AI what this model stores, e.g. 'Sales orders and "
+"quotations'."
+msgstr ""
+"Une ligne indiquant à l'IA ce que ce modèle stocke, ex. « Commandes et devis"
+" de vente »."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,help:cledoo_mcp.field_mcp_oauth_client__redirect_uris
+msgid "One redirect URI per line."
+msgstr "Une URI de redirection par ligne."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__pair_id
+msgid "Pair"
+msgstr "Paire"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"Per-connection request budget on /mcp (requests per minute, 0 disables). "
+"Approximate across workers."
+msgstr ""
+"Budget de requêtes par connexion sur /mcp (requêtes par minute, 0 pour "
+"désactiver). Approximatif entre workers."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,help:cledoo_mcp.field_res_config_settings__mcp_rate_limit
+msgid ""
+"Per-connection request budget on /mcp. 0 disables the limiter. Approximate "
+"across workers; put a hard limit on your reverse proxy if you need a "
+"guarantee."
+msgstr ""
+"Budget de requêtes par connexion sur /mcp. 0 désactive le limiteur. "
+"Approximatif entre workers ; placez une limite dure sur votre reverse proxy "
+"si vous avez besoin d'une garantie."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"Know exactly what the AI did — and decide what it may do. A global read-only"
+" kill-switch and per-connection scopes, an exportable audit trail of every "
+"AI call, automatic data privacy masking (even in exports), per-user "
+"allow/deny policies with a dry-run simulator, human approval for risky "
+"writes, and an outbound guard so the AI never emails anyone on its own. One-"
+"time purchase, no subscription."
+msgstr ""
+"Sachez exactement ce que l'IA a fait — et décidez ce qu'elle a le droit de "
+"faire. Un coupe-circuit lecture seule global et des périmètres par "
+"connexion, un journal d'audit exportable de chaque appel IA, le masquage "
+"automatique des données personnelles (même à l'export), des politiques "
+"allow/deny par utilisateur avec simulateur, la validation humaine des "
+"écritures sensibles, et un garde-fou sortant pour que l'IA n'envoie jamais "
+"d'e-mail de son propre chef. Achat unique, sans abonnement."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__principal
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__principal
+msgid "Principal"
+msgstr "Principal"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Rate limit"
+msgstr "Limite de débit"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_rate_limit
+msgid "Rate limit (requests/minute)"
+msgstr "Limite de débit (requêtes/minute)"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__redirect_uri
+msgid "Redirect Uri"
+msgstr "URI de redirection"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_client__redirect_uris
+msgid "Redirect Uris"
+msgstr "URI de redirection"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields.selection,name:cledoo_mcp.selection__mcp_oauth_token__kind__refresh
+msgid "Refresh"
+msgstr "Rafraîchissement"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__resource
+msgid "Resource"
+msgstr "Ressource"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Review and revoke AI clients connected via OAuth."
+msgstr "Consultez et révoquez les clients IA connectés via OAuth."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.view_mcp_oauth_token_list
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.view_mcp_session_list
+msgid "Revoke"
+msgstr "Révoquer"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__revoked
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__revoked
+msgid "Revoked"
+msgstr "Révoqué"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_model_profile__sequence
+msgid "Sequence"
+msgstr "Séquence"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid "Signed in as"
+msgstr "Connecté en tant que"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,help:cledoo_mcp.field_mcp_model_profile__model_name
+msgid ""
+"Technical model name (e.g. sale.order). Entries for modules that are not "
+"installed are ignored at runtime."
+msgstr ""
+"Nom technique du modèle (ex. sale.order). Les entrées de modules non "
+"installés sont ignorées à l'exécution."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"The curated model catalog the AI sees first — edit it to match your "
+"business."
+msgstr ""
+"Le catalogue de modèles que l'IA voit en premier — adaptez-le à votre "
+"activité."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"Tip: set the <b>web.base.url.freeze</b> system parameter to\n"
+"                <b>True</b> so admin logins cannot rewrite your public URL and\n"
+"                break the OAuth discovery metadata."
+msgstr ""
+"Astuce : définissez le paramètre système <b>web.base.url.freeze</b> à\n"
+"                <b>True</b> afin que les connexions administrateur ne puissent pas réécrire\n"
+"                votre URL publique et casser les métadonnées de découverte OAuth."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__token_id
+msgid "Token"
+msgstr "Jeton"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__token_hash
+msgid "Token Hash"
+msgstr "Empreinte du jeton"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__used
+msgid "Used"
+msgstr "Utilisé"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_endpoint_activity__user_id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_code__user_id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_oauth_token__user_id
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__user_id
+msgid "User"
+msgstr "Utilisateur"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "View activity"
+msgstr "Voir l'activité"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,help:cledoo_mcp.field_res_config_settings__mcp_telemetry
+msgid ""
+"OFF by default — nothing is ever sent unless you enable this. When enabled: "
+"weekly anonymous ping to PostHog (EU) with version numbers and aggregate "
+"counters only — never your data, model names or hostnames. The exact payload"
+" is documented in the README (Privacy section) and at "
+"https://cledoo.com/privacy."
+msgstr ""
+"Désactivé par défaut — rien n'est jamais envoyé tant que vous ne l'activez "
+"pas. Une fois activé : ping anonyme hebdomadaire vers PostHog (UE) avec "
+"numéros de version et compteurs agrégés uniquement — jamais vos données, "
+"noms de modèles ni noms d'hôtes. Le contenu exact est documenté dans le "
+"README (section Privacy) et sur https://cledoo.com/privacy."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"OFF by default — nothing is sent unless you enable this. When enabled: "
+"weekly anonymous ping to PostHog (EU), version numbers and aggregate "
+"counters only — never your data, model names or hostnames. Exact payload "
+"documented in the README and at https://cledoo.com/privacy."
+msgstr ""
+"Désactivé par défaut — rien n'est envoyé tant que vous ne l'activez pas. Une"
+" fois activé : ping anonyme hebdomadaire vers PostHog (UE), numéros de "
+"version et compteurs agrégés uniquement — jamais vos données, noms de "
+"modèles ni noms d'hôtes. Contenu exact documenté dans le README et sur "
+"https://cledoo.com/privacy."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid "You will be redirected to"
+msgstr "Vous serez redirigé vers"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"Your <b>web.base.url</b> uses http://. OAuth clients (Claude)\n"
+"                require https and will refuse to connect. If you run behind a\n"
+"                reverse proxy, set <b>proxy_mode = True</b> in odoo.conf."
+msgstr ""
+"Votre <b>web.base.url</b> utilise http://. Les clients OAuth (Claude)\n"
+"                exigent https et refuseront de se connecter. Derrière un\n"
+"                reverse proxy, définissez <b>proxy_mode = True</b> dans odoo.conf."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid "after your decision."
+msgstr "après votre décision."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.oauth_consent
+msgid "is requesting access to your Odoo account."
+msgstr "demande l'accès à votre compte Odoo."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"A hands-on getting-started guide and real-world use cases by role — what "
+"sales, production, leadership and IT actually ask their AI on Odoo, with "
+"ready-to-use prompts."
+msgstr ""
+"Un guide de prise en main concret et des cas d'usage réels par métier — ce "
+"que le commerce, la production, la direction et l'IT demandent vraiment à "
+"leur IA sur Odoo, avec des prompts prêts à l'emploi."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Guide & use cases"
+msgstr "Guide & cas d'usage"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Read the guide"
+msgstr "Lire le guide"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"Ceiling (MB) for tools that inline a whole file/export into the response: "
+"read_resource, export_records, print_report. Larger payloads are refused "
+"instead of loading them into memory."
+msgstr ""
+"Plafond (Mo) pour les outils qui incluent un fichier/export entier dans la "
+"réponse : read_resource, export_records, print_report. Les contenus plus "
+"volumineux sont refusés plutôt que chargés en mémoire."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,help:cledoo_mcp.field_res_config_settings__mcp_max_inline_mb
+msgid ""
+"Ceiling for tools that inline a whole payload into the response "
+"(read_resource attachments/binaries, export_records files, print_report "
+"documents). Requests over this size are refused instead of loading the "
+"payload into memory — a guard against OOM and blown LLM context. Default 5 "
+"MB."
+msgstr ""
+"Plafond pour les outils qui incluent un contenu entier dans la réponse "
+"(pièces jointes/binaires de read_resource, fichiers d'export_records, "
+"documents de print_report). Les requêtes au-delà de cette taille sont "
+"refusées plutôt que chargées en mémoire — une protection contre les OOM et "
+"la saturation du contexte du LLM. 5 Mo par défaut."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,help:cledoo_mcp.field_res_config_settings__mcp_annotate_messages
+msgid ""
+"Chatter messages created through MCP get a small 'MCP' badge with the client"
+" name, so humans can tell AI-written notes from human ones."
+msgstr ""
+"Les messages de chatter créés via MCP reçoivent un petit badge « MCP » avec "
+"le nom du client, pour distinguer les notes écrites par l'IA de celles des "
+"humains."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__last_activity
+msgid "Last Activity"
+msgstr "Dernière activité"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "MB"
+msgstr "Mo"
+
+#. module: cledoo_mcp
+#. odoo-javascript
+#: code:addons/cledoo_mcp/static/src/core/message_patch.xml:0
+msgid "MCP"
+msgstr "MCP"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mail_mail__mcp_name
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mail_message__mcp_name
+msgid "MCP client"
+msgstr "Client MCP"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_mcp_session
+msgid "MCP endpoint session"
+msgstr "Session du endpoint MCP"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_module_version
+msgid "MCP module version"
+msgstr "Version du module MCP"
+
+#. module: cledoo_mcp
+#: model:ir.actions.act_window,name:cledoo_mcp.action_mcp_session
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.view_mcp_session_list
+msgid "MCP sessions"
+msgstr "Sessions MCP"
+
+#. module: cledoo_mcp
+#: model:ir.actions.server,name:cledoo_mcp.ir_cron_mcp_session_gc_ir_actions_server
+msgid "MCP: garbage-collect idle sessions (daily)"
+msgstr "MCP : purge des sessions inactives (quotidien)"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Max inline size"
+msgstr "Taille max en ligne"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_max_inline_mb
+msgid "Max inline size (MB)"
+msgstr "Taille max en ligne (Mo)"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_pro_url
+msgid "Mcp Pro Url"
+msgstr "URL MCP Pro"
+
+#. module: cledoo_mcp
+#: model:ir.model,name:cledoo_mcp.model_mail_message
+msgid "Message"
+msgstr "Message"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__remote_addr
+msgid "Remote address"
+msgstr "Adresse distante"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_mcp_session__name
+msgid "Session ID"
+msgstr "ID de session"
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,help:cledoo_mcp.field_mail_mail__mcp_name
+#: model:ir.model.fields,help:cledoo_mcp.field_mail_message__mcp_name
+msgid ""
+"Set when this message was created through the MCP endpoint; holds the AI "
+"client name (OAuth) or the user login (API key)."
+msgstr ""
+"Renseigné quand ce message a été créé via le endpoint MCP ; contient le nom "
+"du client IA (OAuth) ou le login de l'utilisateur (clé API)."
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid ""
+"Show a small MCP badge on chatter messages written by AI clients, with the "
+"client name on hover."
+msgstr ""
+"Affiche un petit badge MCP sur les messages de chatter écrits par des "
+"clients IA, avec le nom du client au survol."
+
+#. module: cledoo_mcp
+#: model:ir.model.fields,field_description:cledoo_mcp.field_res_config_settings__mcp_annotate_messages
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Tag MCP chatter messages"
+msgstr "Marquer les messages de chatter MCP"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "Version"
+msgstr "Version"
+
+#. module: cledoo_mcp
+#: model_terms:ir.ui.view,arch_db:cledoo_mcp.res_config_settings_view_form_mcp
+msgid "View sessions"
+msgstr "Voir les sessions"
