@@ -304,13 +304,94 @@
   </div>
 </section>
 
-<section class="oe_container" style="margin-top:8px;margin-bottom:24px;">
+<!-- Documentation -->
+<section class="oe_container" style="margin-top:36px;">
   <div class="row">
     <div class="col-12">
-      <h3 style="margin:0 0 8px;font-size:22px;font-weight:300;color:#1A1C22;">Support</h3>
-      <p style="color:#5C6470;">
-        Questions or issues: <a href="mailto:support@cledoo.com" style="color:#0B7C78;">support@cledoo.com</a>
-      </p>
+      <h3 style="margin:0 0 16px;font-size:26px;font-weight:300;color:#1A1C22;">Documentation</h3>
+    </div>
+    <div class="col-md-6" style="margin-bottom:20px;">
+      <div style="background-color:#FFFFFF;border:1px solid #E6E8EE;border-radius:13px;padding:22px;">
+        <h4 style="margin:0 0 10px;font-size:16px;font-weight:600;color:#1A1C22;">Configuration (Settings &gt; MCP Server)</h4>
+        <ul style="margin:0;padding-left:18px;font-size:14px;color:#5C6470;line-height:1.7;">
+          <li><strong>Enable MCP Server</strong> &mdash; master switch. While off, <code>/mcp</code> returns 404.</li>
+          <li><strong>Featured models</strong> &mdash; the curated model catalog the AI sees first; edit it to match your business.</li>
+          <li><strong>Rate limit</strong> &mdash; per-connection request budget on <code>/mcp</code> (requests per minute, 0 disables).</li>
+          <li><strong>Max inline size</strong> &mdash; ceiling (MB) for tools that inline a whole file or export into the response.</li>
+          <li><strong>Tag MCP chatter messages</strong> &mdash; show the "MCP" badge on messages written by AI clients.</li>
+          <li><strong>Connected AI clients</strong> &mdash; review and revoke OAuth-connected agents, view activity and sessions.</li>
+          <li><strong>Anonymous usage statistics</strong> &mdash; opt-in, off by default.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6" style="margin-bottom:20px;">
+      <div style="background-color:#FFFFFF;border:1px solid #E6E8EE;border-radius:13px;padding:22px;">
+        <h4 style="margin:0 0 10px;font-size:16px;font-weight:600;color:#1A1C22;">Authentication</h4>
+        <ul style="margin:0;padding-left:18px;font-size:14px;color:#5C6470;line-height:1.7;">
+          <li><strong>OAuth 2.1 (recommended for claude.ai)</strong> &mdash; paste <code>https://your-odoo.example.com/mcp</code> as a custom connector, log into Odoo, approve on the consent screen. Revoke anytime from Settings.</li>
+          <li><strong>Odoo API key</strong> &mdash; generate one under Preferences &gt; Account Security &gt; New API Key, send it as <code>Authorization: Bearer &lt;key&gt;</code>. Works with any header-capable MCP client.</li>
+        </ul>
+        <h4 style="margin:18px 0 10px;font-size:16px;font-weight:600;color:#1A1C22;">Operations</h4>
+        <ul style="margin:0;padding-left:18px;font-size:14px;color:#5C6470;line-height:1.7;">
+          <li><strong>Health check</strong> &mdash; open <code>/mcp/health</code> to self-diagnose the most common deployment issues (proxy, auth, database routing).</li>
+          <li><strong>Multi-company</strong> &mdash; calls follow the connected user's allowed companies.</li>
+          <li><strong>Requirements</strong> &mdash; Odoo 18 or 19, On-Premise or Odoo.sh. No extra Python dependency. Not installable on Odoo Online (SaaS).</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12" style="margin-bottom:8px;">
+      <div style="background-color:#F6F7F9;border:1px solid #E6E8EE;border-radius:13px;padding:22px;">
+        <h4 style="margin:0 0 10px;font-size:16px;font-weight:600;color:#1A1C22;">FAQ</h4>
+        <p style="margin:0 0 8px;font-size:14px;color:#5C6470;line-height:1.6;"><strong>Which AI clients work?</strong> Claude.ai and Claude Desktop (OAuth, one click), and any MCP client that speaks streamable HTTP with bearer auth: ChatGPT, GitHub Copilot, Mistral Le Chat, Cursor, custom agents.</p>
+        <p style="margin:0 0 8px;font-size:14px;color:#5C6470;line-height:1.6;"><strong>Can the AI see more than the user?</strong> No. Every call runs under the connected user's ACLs, record rules and field rights &mdash; exactly the UI perimeter.</p>
+        <p style="margin:0 0 8px;font-size:14px;color:#5C6470;line-height:1.6;"><strong>How do I restrict what the AI can do?</strong> Connect it as a dedicated Odoo user with tight ACLs. For governance of the AI itself (read-only kill-switch, scopes, audit, masking, confirmed writes), see the separate Cledoo MCP Pro module on the Odoo Apps Store.</p>
+        <p style="margin:0;font-size:14px;color:#5C6470;line-height:1.6;"><strong>Does anything leave my server?</strong> No. The module runs inside your instance; there is no relay. Telemetry is opt-in and off by default.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Support & License -->
+<section class="oe_container" style="margin-top:28px;">
+  <div class="row">
+    <div class="col-md-6" style="margin-bottom:20px;">
+      <div style="background-color:#FFFFFF;border:1px solid #E6E8EE;border-radius:13px;padding:22px;">
+        <h3 style="margin:0 0 8px;font-size:20px;font-weight:400;color:#1A1C22;">Support</h3>
+        <p style="margin:0;font-size:14px;color:#5C6470;line-height:1.6;">
+          Questions, issues or feature requests:
+          <a href="mailto:support@cledoo.com" style="color:#0B7C78;"><strong>support@cledoo.com</strong></a>.
+          We answer fast, in English or French.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6" style="margin-bottom:20px;">
+      <div style="background-color:#FFFFFF;border:1px solid #E6E8EE;border-radius:13px;padding:22px;">
+        <h3 style="margin:0 0 8px;font-size:20px;font-weight:400;color:#1A1C22;">License</h3>
+        <p style="margin:0;font-size:14px;color:#5C6470;line-height:1.6;">
+          <strong>LGPL-3</strong> &mdash; free and open source. The full license text ships
+          with the module (<code>LICENSE</code> file). You can read, audit and extend the code.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Changelog -->
+<section class="oe_container" style="margin-top:16px;margin-bottom:24px;">
+  <div class="row">
+    <div class="col-12">
+      <h3 style="margin:0 0 12px;font-size:22px;font-weight:300;color:#1A1C22;">Changelog</h3>
+      <div style="background-color:#F6F7F9;border:1px solid #E6E8EE;border-radius:13px;padding:22px;">
+        <p style="margin:0 0 6px;font-size:14px;color:#1A1C22;"><strong>1.7.0 (2026-07-20)</strong> &mdash; first public release on the Odoo Apps Store.</p>
+        <ul style="margin:0;padding-left:18px;font-size:14px;color:#5C6470;line-height:1.7;">
+          <li>17 MCP tools (discover, read &amp; analyze, act) running under native Odoo ACLs.</li>
+          <li>Built-in OAuth 2.1 authorization server with consent screen, plus Odoo API-key auth.</li>
+          <li>Curated featured-models catalog, per-connection rate limiting, response-size guards.</li>
+          <li>MCP chatter badge, connected-clients management, <code>/mcp/health</code> self-diagnosis.</li>
+          <li>Opt-in anonymous usage statistics (off by default). English and French translations.</li>
+          <li>Odoo 18 and 19 support.</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
