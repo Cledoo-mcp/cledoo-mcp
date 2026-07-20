@@ -339,6 +339,30 @@
         </ul>
       </div>
     </div>
+    <div class="col-md-6" style="margin-bottom:20px;">
+      <div style="background-color:#FFFFFF;border:1px solid #E6E8EE;border-radius:13px;padding:22px;">
+        <h4 style="margin:0 0 10px;font-size:16px;font-weight:600;color:#1A1C22;">Quick install</h4>
+        <ol style="margin:0;padding-left:18px;font-size:14px;color:#5C6470;line-height:1.7;">
+          <li>Download the module (or buy it here on the Apps Store) and unzip: you get a <code>cledoo_mcp/</code> folder.</li>
+          <li>Copy it into an addons directory of your server (a path listed in <code>addons_path</code> in <code>odoo.conf</code>). On <strong>Odoo.sh</strong>: commit the folder to your linked GitHub repository.</li>
+          <li>Restart Odoo, enable developer mode, then <strong>Apps &gt; Update Apps List</strong>, search "Cledoo" and click <strong>Install</strong>.</li>
+          <li>Go to <strong>Settings &gt; General Settings &gt; MCP Server</strong>, tick <strong>Enable MCP Server</strong>, save. Your endpoint URL is displayed right there.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="col-md-6" style="margin-bottom:20px;">
+      <div style="background-color:#FFFFFF;border:1px solid #E6E8EE;border-radius:13px;padding:22px;">
+        <h4 style="margin:0 0 10px;font-size:16px;font-weight:600;color:#1A1C22;">Add the connector in Claude (OAuth)</h4>
+        <ol style="margin:0;padding-left:18px;font-size:14px;color:#5C6470;line-height:1.7;">
+          <li>In claude.ai or Claude Desktop: <strong>Settings &gt; Connectors &gt; Add custom connector</strong>.</li>
+          <li>Name it (e.g. "Odoo"), paste your endpoint <code>https://your-odoo.example.com/mcp</code>, leave the OAuth fields empty, click <strong>Add</strong>.</li>
+          <li>Click <strong>Connect</strong>: you are redirected to your Odoo login page.</li>
+          <li>Log into Odoo. The consent screen appears: <em>"Claude is requesting access to your Odoo account"</em>, listing exactly what it can do. Click <strong>Allow access</strong>.</li>
+          <li>Back in Claude, the Odoo tools are live &mdash; ask "What can you see in my Odoo?" to test.</li>
+        </ol>
+        <p style="margin:10px 0 0;font-size:13px;color:#5C6470;line-height:1.6;">To revoke later: <strong>Settings &gt; MCP Server &gt; Manage connections</strong> in Odoo &mdash; or remove the connector in Claude. See the screenshots above for both screens.</p>
+      </div>
+    </div>
     <div class="col-12" style="margin-bottom:8px;">
       <div style="background-color:#F6F7F9;border:1px solid #E6E8EE;border-radius:13px;padding:22px;">
         <h4 style="margin:0 0 10px;font-size:16px;font-weight:600;color:#1A1C22;">FAQ</h4>
